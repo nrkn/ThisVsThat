@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>This vs. That</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="thisVsThat.js"></script>
+  </head>
+  <body>
+    <h1>This vs. That</h1>
+    <noscript>
+      <p>
+        Oh dear. This is a JavaScript application, so without JavaScript it 
+        won't be very much fun. Sorry about that old chap.
+      </p>
+    </noscript>
+    <h2 id="choice"><a href="#" id="start">Start</a></h2>
+    <h3>Progress:</h3>
+    <div id="progress"><div></div></div>
+    <div class="columns">
+      <div class="column" id="things">
+        <label for="things">
+          Put some things in here, one on each line:
+        </label>
+        <textarea id="things">Apple
+Apricot
+Banana
+Cherry
+Grape
+Orange
+Peach
+Pear
+Plum
+Strawberry</textarea>
+        <ul id="controls">
+        </ul>
+      </div>
+      <div class="column" id="ranking">
+        <h2>Ranking</h2>
+        <ol></ol>
+      </div>     
+      <div class="column" id="help">
+        <h2>What's all this about eh?</h2>
+        <p>
+          I always find it difficult to name my favorite things. I can easily
+          blurt out a whole bunch of bands or movies or books that I like, 
+          but ask me to list my top 5 or 10 of all time and my eyes glaze over.
+        </p>
+        <p>
+          This toy helps you to figure it out by squaring the things off against
+          each other one at a time. I hope you find it fun and useful.
+        </p>
+      </div>
+    </div>
+    <p id="debug">
+    </p>
+    <p id="footer">
+      ©2011 <a href="mailto:nrkn.com@gmail.com">Nik Coughlin</a> 
+      | <a href="https://github.com/nrkn">Github</a> 
+      | <a href="http://stackoverflow.com/users/447907/nrkn">SO</a> 
+      | <a href="http://news.ycombinator.com/user?id=nrkn">HN</a>
+    </p>
+  </body>
+</html>  
